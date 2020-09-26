@@ -5,3 +5,7 @@
 
 
 Metasploit tip: To save all commands executed since start up to a file, use the **makerc** command  
+
+**msfupdate** is no longer supported when Metasploit is part of the operating
+system. Please use **'apt update; apt install metasploit-framework'**  
+
