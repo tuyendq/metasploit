@@ -11,3 +11,7 @@
 **msfupdate** is no longer supported when Metasploit is part of the operating
 system. Please use **'apt update; apt install metasploit-framework'**  
 
+### Connect to database
+```
+msf5 > db_connect -y /usr/share/metasploit-framework/config/database.yml
+```
